@@ -12,8 +12,9 @@ sns.set()
 # In[8]:
 
 
-methods = ["uniform", "entropy", "bald", "bald_generative"]
+methods = ["uniform", "entropy", "bald", "bald_generative", "entropy_generative", "bald_duplicate", "entropy_duplicate"]
 location = "perf_lists/"
+plt.figure(figsize=(15, 10))
 plt.xlabel("Acquisition Iterations")
 plt.ylabel("Test Accuracy")
 plt.title("Test Accuracy Performance")
