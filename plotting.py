@@ -12,7 +12,8 @@ sns.set()
 # In[8]:
 
 
-methods = ["uniform", "entropy", "bald", "bald_generative", "entropy_generative", "bald_duplicate", "entropy_duplicate"]
+# methods = ["uniform", "entropy", "bald", "bald_generative", "entropy_generative", "bald_duplicate", "entropy_duplicate"]
+methods = ["bald_gan", "bald_gan_std0", "entropy_gan", "entropy_gan_std0"]
 location = "perf_lists/"
 plt.figure(figsize=(15, 10))
 plt.xlabel("Acquisition Iterations")
