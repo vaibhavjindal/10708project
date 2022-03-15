@@ -10,7 +10,7 @@ import numpy as np
 # In[2]:
 
 
-methods = ["uniform", "entropy", "bald", "bald_generative", "entropy_generative", "bald_duplicate", "entropy_duplicate", "bald_gan"]
+methods = ["uniform", "entropy", "bald", "bald_generative", "entropy_generative", "bald_duplicate", "entropy_duplicate", "bald_gan", "entropy_gan"]
 runs = {}
 for method in methods:
     runs[method] = []
