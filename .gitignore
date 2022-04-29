@@ -1,5 +1,5 @@
 __pycache__
-MNIST/
+mnist_data/
 cifar-10-batches-py/
 .ipynb_checkpoints/
 cifar-10-python.tar.gz
