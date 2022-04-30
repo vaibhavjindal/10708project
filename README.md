@@ -17,13 +17,13 @@ For MNIST, please follow the instructions below:
 - Run `submit/MNIST/dbal_pytorch_paper_vae_gan.ipynb` for running the code for Active Learning on MNIST with VAEGAN
 - Run `submit/MNIST/dbal_pytorch_vae.ipynb` for running the code for Active Learning on MNIST with VAE
 - Run `submit/MNIST/dbal_pytorch_duplicate.ipynb` for running the code for Active Learning on MNIST with duplicated samples
-- Run `submit/MNIST/bgadl_mnist.py` for running the code for Active Learning on MNIST with VAE-ACGAN joint training
+- Run `python3 submit/MNIST/bgadl_mnist.py MAX_ENTROPY` for running the code for Active Learning on MNIST with VAE-ACGAN joint training and Max Entropy acquisition. Replace `MAX_ENTROPY` with `BALD` to use Bald acquisition function
 
 For CIFAR-10, please follow the instructions below:
 - Run `submit/CIFAR10/dbal_pytorch_paper_cifar.py` for running the code for Active Learning on CIFAR10 without data augmentation
 - Run `submit/CIFAR10/dbal_pytorch_paper_cifar_pix.py` for running the code for Active Learning on CIFAR10 with Pix2Pix
 - Run `submit/CIFAR10/dbal_pytorch_paper_cifar_vae.py` for running the code for Active Learning on CIFAR10 with VAE
 - Run `submit/CIFAR10/dbal_pytorch_paper_cifar_duplicate.ipynb` for running the code for Active Learning on CIFAR10 with duplicated samples
-- Run `submit/CIFAR10/bgadl_cifar.py` for running the code for Active Learning on CIFAR10 with VAE-ACGAN joint training
+- Run `python3 submit/CIFAR/bgadl_cifar.py MAX_ENTROPY` for running the code for Active Learning on CIFAR-10 with VAE-ACGAN joint training and Max Entropy acquisition. Replace `MAX_ENTROPY` with `BALD` to use Bald acquisition function
 
 For plotting the graphs, run `submit/plotting/plotting_cifar_smoothen.ipynb` (for CIFAR-10) and `submit/plotting/plotting_mnist_smoothen.ipynb` (for MNIST) after running the code above
