@@ -9,6 +9,7 @@ Obtaining labeled data is a significant challenge in many supervised machine lea
 - keras
 - modAL
 - skorch
+- matplotlib
 
 # Instructions for running the code:
 For MNIST, please follow the instructions below:
