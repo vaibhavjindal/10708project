@@ -28,7 +28,8 @@ For CIFAR-10, please follow the instructions below:
 
 For plotting the graphs, run `submit/plotting/plotting_cifar_smoothen.ipynb` (for CIFAR-10) and `submit/plotting/plotting_mnist_smoothen.ipynb` (for MNIST) after running the code above
 
-# Generated images from VAE-ACGAN for MNIST and CIFAR-10 :)
-
+# VAE-ACGAN training progess :)
+## MNIST
 ![Alt Text](https://github.com/vaibhavjindal/10708project/blob/main/imgs/VAEACGAN_generate_animation_mnist.gif)
+## CIFAR
 ![Alt Text](https://github.com/vaibhavjindal/10708project/blob/main/imgs/VAEACGAN_generate_animation_cifar.gif)
