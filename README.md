@@ -27,3 +27,8 @@ For CIFAR-10, please follow the instructions below:
 - Run `python3 submit/CIFAR/bgadl_cifar.py MAX_ENTROPY` for running the code for Active Learning on CIFAR-10 with VAE-ACGAN joint training and Max Entropy acquisition. Replace `MAX_ENTROPY` with `BALD` to use Bald acquisition function
 
 For plotting the graphs, run `submit/plotting/plotting_cifar_smoothen.ipynb` (for CIFAR-10) and `submit/plotting/plotting_mnist_smoothen.ipynb` (for MNIST) after running the code above
+
+# Generated images from VAE-ACGAN for MNIST and CIFAR-10 :)
+
+![Alt Text](https://github.com/vaibhavjindal/10708project/blob/main/imgs/VAEACGAN_generate_animation_mnist.gif)
+![Alt Text](https://github.com/vaibhavjindal/10708project/blob/main/imgs/VAEACGAN_generate_animation_cifar.gif)
