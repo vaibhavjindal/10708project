@@ -1,0 +1,9 @@
+skorch
+modAL
+pytorch
+torchvision
+tensorflow
+keras
+modAL
+skorch
+matplotlib
